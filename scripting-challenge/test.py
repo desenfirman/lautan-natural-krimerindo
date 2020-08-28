@@ -131,5 +131,5 @@ def test_millions():
         test_variable = {
             1000000000: 'Number should be less than 999.999.999',
         }
-    for test, result in test_variable.items():
-        assert main.get_literal_number_less_than_m(test) == result
+        for test, result in test_variable.items():
+            assert main.get_literal_number_less_than_m(test) == result
