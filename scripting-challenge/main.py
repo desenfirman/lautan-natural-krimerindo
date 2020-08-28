@@ -36,8 +36,7 @@ def get_literal_number_less_than_m(number: int):
             tens = below_hundreds // 10
             ones = below_hundreds % 10
             if below_hundreds < 12:
-                if below_hundreds > 0:
-                    word.append(f"{BASIC_NUMBER_WORD[below_hundreds]}")
+                word.append(f"{BASIC_NUMBER_WORD[below_hundreds]}")
             elif below_hundreds < 20:
                 word.append(f"{BASIC_NUMBER_WORD[ones]} belas")
             else:
@@ -55,20 +54,28 @@ def get_literal_number_less_than_m(number: int):
         words.append(' '.join(reversed(word)))
         number //= 1000
 
-    final_word = ""
-    # STEP 2: find the thousands and millions
-    for i in range(len(words)):
-        if i == 2:
-            final_word = words[i] + ' juta ' + final_word
-        elif i == 1:
-            if words[i] == 'satu':
-                final_word = 'seribu ' + final_word
-            else:
-                final_word = words[i] + ' ribu ' + final_word
-        else:
-            final_word = words[i] + ' ' + final_word
 
-    return final_word
+    # STEP 2: find the thousands and millions
+    final_word = []
+    for i in range(len(words)):
+        inv_i = len(words) - 1 - i
+        if words[inv_i] == '':
+            continue
+        if inv_i == 0:
+            final_word.append(words[inv_i])
+        elif inv_i == 1:
+            if words[inv_i] == 'satu':
+                final_word.append('seribu')
+            else:
+                final_word.append(words[inv_i])
+                final_word.append('ribu')
+        else:
+            final_word.append(words[inv_i])
+            final_word.append('juta')
+
+    if final_word[-1] == ' ':
+        final_word = final_word[:-1]
+    return ' '.join(final_word)
 
 
 if __name__ == "__main__":
