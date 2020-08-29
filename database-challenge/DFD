@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-29T12:05:23.459Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="KeF8jZV9VGkwV4nKyCwc" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-29T12:10:55.614Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="pxltnexsZbF836qA1yOZ" version="13.6.5" type="github">
   <diagram name="Level 0" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="1805" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-123" value="Feature &amp;amp; opinion extraction" style="endArrow=classic;html=1;exitX=0.943;exitY=0.262;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121">
+        <mxCell id="dE7pfXFwS93azTOCquyD-123" value="Feature &amp;amp; opinion extraction&lt;br&gt;pada komentar" style="endArrow=classic;html=1;exitX=0.943;exitY=0.262;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="440" as="sourcePoint" />
             <mxPoint x="550" y="390" as="targetPoint" />
@@ -121,12 +121,13 @@
             <mxPoint x="550" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-125" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121">
+        <mxCell id="dE7pfXFwS93azTOCquyD-125" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="440" as="sourcePoint" />
             <mxPoint x="550" y="390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="725" y="410" />
+              <mxPoint x="600" y="385" />
+              <mxPoint x="600" y="368" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -143,6 +144,17 @@
               <mxPoint x="456" y="450" />
               <mxPoint x="750" y="450" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE7pfXFwS93azTOCquyD-130" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.969;exitY=0.696;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="412" as="sourcePoint" />
+            <mxPoint x="550" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE7pfXFwS93azTOCquyD-131" value="Data historis&lt;br&gt;perkembangan follower&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dE7pfXFwS93azTOCquyD-130">
+          <mxGeometry x="-0.0528" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
