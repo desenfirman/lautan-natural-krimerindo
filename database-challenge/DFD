@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-29T13:30:05.575Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="rtQfgu1LJcTpXo2G4K6c" version="13.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-29T13:45:30.731Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="K5NrWqb5hxEHDcMan8Wi" version="13.6.5" type="github" pages="3">
   <diagram name="Level 0" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -116,7 +116,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qf4hrw9B52MKthMP5kLH" name="Level 1">
-    <mxGraphModel dx="816" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="txjXLLPX41o9-VPFYIIn-0" />
         <mxCell id="txjXLLPX41o9-VPFYIIn-1" parent="txjXLLPX41o9-VPFYIIn-0" />
@@ -216,7 +216,7 @@
             <mxPoint x="430" y="230" as="sourcePoint" />
             <mxPoint x="480" y="180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="496" y="260" />
+              <mxPoint x="496" y="270" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -233,28 +233,68 @@
         <mxCell id="xhElMr5K9zd62Vby7WwL-21" value="Report Data NoSQL&amp;nbsp;Database" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
           <mxGeometry x="610" y="32" width="210" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="xhElMr5K9zd62Vby7WwL-23" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-0" target="xhElMr5K9zd62Vby7WwL-21">
+        <mxCell id="xhElMr5K9zd62Vby7WwL-23" value="" style="endArrow=classic;html=1;entryX=0.397;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" target="xhElMr5K9zd62Vby7WwL-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="170" as="sourcePoint" />
+            <mxPoint x="535" y="142" as="sourcePoint" />
             <mxPoint x="560" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="660" y="170" />
+              <mxPoint x="660" y="150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="xhElMr5K9zd62Vby7WwL-24" value="komentar user,&lt;br&gt;pada periode &lt;br&gt;jam tertentu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xhElMr5K9zd62Vby7WwL-23">
           <mxGeometry x="-0.3081" y="3" relative="1" as="geometry">
-            <mxPoint x="-49.03" y="10.500000000000014" as="offset" />
+            <mxPoint x="8.029999999999998" y="28.020000000000014" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xhElMr5K9zd62Vby7WwL-25" value="like user&lt;br&gt;pada periode&lt;br&gt;jam tertentu" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-0" target="xhElMr5K9zd62Vby7WwL-21">
-          <mxGeometry x="-0.5211" y="3" width="50" height="50" relative="1" as="geometry">
+        <mxCell id="xhElMr5K9zd62Vby7WwL-25" value="like user&lt;br&gt;pada periode&lt;br&gt;jam tertentu" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-0" target="xhElMr5K9zd62Vby7WwL-21">
+          <mxGeometry x="-0.4383" y="21" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="170" as="sourcePoint" />
             <mxPoint x="600" y="210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="130" />
+              <mxPoint x="630" y="120" />
+              <mxPoint x="640" y="110" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j35Me7qAce9ErHJOQFsp-0" value="3*&lt;br&gt;Melakukan analisis&lt;br&gt;polaritias &lt;br&gt;sentimen" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="710" y="200" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="j35Me7qAce9ErHJOQFsp-1" value="report&lt;br&gt;data post" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" target="j35Me7qAce9ErHJOQFsp-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="60" as="sourcePoint" />
+            <mxPoint x="520" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00RVO9Jpwh5KmNB4vDdA-0" value="4&lt;br&gt;Melihat&lt;br&gt;perkembangan&lt;br&gt;historis like dan&lt;br&gt;komentar&lt;br&gt;pada post" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="254" y="400" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="00RVO9Jpwh5KmNB4vDdA-1" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="10" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="00RVO9Jpwh5KmNB4vDdA-2" value="id_post" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="00RVO9Jpwh5KmNB4vDdA-1" target="00RVO9Jpwh5KmNB4vDdA-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="420" as="sourcePoint" />
+            <mxPoint x="380" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00RVO9Jpwh5KmNB4vDdA-3" value="Report Data NoSQL&amp;nbsp;Database" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="290" y="630" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="00RVO9Jpwh5KmNB4vDdA-4" value="report&amp;nbsp;&lt;br&gt;data" style="endArrow=classic;html=1;exitX=0.369;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="00RVO9Jpwh5KmNB4vDdA-3" target="00RVO9Jpwh5KmNB4vDdA-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="00RVO9Jpwh5KmNB4vDdA-5" value="grafik perkembangan&lt;br&gt;like dan komen&lt;br&gt;post&lt;br&gt;pada periode track" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="00RVO9Jpwh5KmNB4vDdA-0" target="00RVO9Jpwh5KmNB4vDdA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
