@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-08-29T12:21:54.621Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="O-RSE4YM1DF8mDykT4gA" version="13.6.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-08-29T12:24:58.497Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="gDL7nUWEZ43rqQbYm2cm" version="13.6.5" type="github" pages="3">
   <diagram name="Level 0" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="1805" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,47 +8,7 @@
           <mxGeometry x="300" y="300" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-101" value="Social Media &lt;br&gt;Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="200" y="620" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-102" value="Instagram API" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="360" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-103" value="Follower Growth" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-102" target="dE7pfXFwS93azTOCquyD-99">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="510" as="sourcePoint" />
-            <mxPoint x="300" y="460" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="280" />
-              <mxPoint x="325" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-104" value="Data historis komentar pada post" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;entryX=0.059;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dE7pfXFwS93azTOCquyD-99">
-          <mxGeometry x="0.0985" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="55" y="410" as="sourcePoint" />
-            <mxPoint x="20" y="570" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="55" y="422" />
-              <mxPoint x="55" y="460" />
-              <mxPoint x="190" y="440" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-105" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-102" target="dE7pfXFwS93azTOCquyD-99">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="510" as="sourcePoint" />
-            <mxPoint x="310" y="460" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="460" />
-              <mxPoint x="325" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-106" value="Data historis like pada post" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dE7pfXFwS93azTOCquyD-105">
-          <mxGeometry x="0.0151" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="30" y="360" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-107" value="Konfigurasi akun instagram" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.745;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-109" target="dE7pfXFwS93azTOCquyD-99">
           <mxGeometry x="0.0081" y="10" width="50" height="50" relative="1" as="geometry">
@@ -57,8 +17,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-108" value="Data posting yg akan dipublish&lt;br&gt;(Gambar &amp;amp; Caption)" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.32;entryY=0.973;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99">
-          <mxGeometry x="-0.4795" y="-20" width="50" height="50" relative="1" as="geometry">
+        <mxCell id="dE7pfXFwS93azTOCquyD-108" value="Data posting yg akan dipublish&lt;br&gt;(Gambar &amp;amp; Caption)" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99">
+          <mxGeometry x="0.1386" y="15" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="530" as="sourcePoint" />
             <mxPoint x="560" y="450" as="targetPoint" />
             <mxPoint as="offset" />
@@ -68,17 +28,17 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-109" value="Social Media&lt;br&gt;Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="440" y="150" width="100" height="50" as="geometry" />
+          <mxGeometry x="360" y="120" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-113" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99">
+        <mxCell id="dE7pfXFwS93azTOCquyD-113" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="510" as="sourcePoint" />
-            <mxPoint x="470" y="460" as="targetPoint" />
+            <mxPoint x="310" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-114" value="Periode waktu mulai &lt;br&gt;dan berhenti tracking&lt;br&gt;pada posting yg akan&lt;br&gt;di-publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dE7pfXFwS93azTOCquyD-113">
           <mxGeometry x="-0.3059" y="24" relative="1" as="geometry">
-            <mxPoint x="39" y="-40" as="offset" />
+            <mxPoint x="31" y="59" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-121" value="Social Media &lt;br&gt;Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
@@ -148,38 +108,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p4tc2Paaddmtp-tekLLC-1" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.046;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-102">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="280" as="sourcePoint" />
-            <mxPoint x="90" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="308" y="340" />
-              <mxPoint x="55" y="340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p4tc2Paaddmtp-tekLLC-4" value="Data post yg akan dipublish&lt;br&gt;(Gambar &amp;amp; Caption)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p4tc2Paaddmtp-tekLLC-1">
-          <mxGeometry x="-0.0323" y="1" relative="1" as="geometry">
-            <mxPoint x="12.529999999999998" y="-21" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p4tc2Paaddmtp-tekLLC-2" value="URL Post yang telah dipublish" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-102" target="dE7pfXFwS93azTOCquyD-99">
-          <mxGeometry y="15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="470" as="sourcePoint" />
-            <mxPoint x="340" y="420" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p4tc2Paaddmtp-tekLLC-5" value="Profile Visit" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.365;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-102" target="dE7pfXFwS93azTOCquyD-99">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="460" as="sourcePoint" />
-            <mxPoint x="340" y="410" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5" y="250" />
-              <mxPoint x="362" y="250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -188,6 +116,89 @@
       <root>
         <mxCell id="txjXLLPX41o9-VPFYIIn-0" />
         <mxCell id="txjXLLPX41o9-VPFYIIn-1" parent="txjXLLPX41o9-VPFYIIn-0" />
+        <mxCell id="qUac9IW1tB5oonGlP6Qu-0" value="Melakukan Post" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="140" y="100" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WUuqDocgXWBx3KlnURM6" name="Backup">
+    <mxGraphModel dx="1806" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="XXlMKQOHAoYWEDbqUS29-0" />
+        <mxCell id="XXlMKQOHAoYWEDbqUS29-1" parent="XXlMKQOHAoYWEDbqUS29-0" />
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-0" value="Instagram API" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="XXlMKQOHAoYWEDbqUS29-1">
+          <mxGeometry x="-20" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-1" value="Follower Growth" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="324.8959235991433" y="324.8959235991433" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="280" />
+              <mxPoint x="325" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-2" value="Data historis komentar pada post" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;entryX=0.059;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="XXlMKQOHAoYWEDbqUS29-1">
+          <mxGeometry x="0.0985" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="410" as="sourcePoint" />
+            <mxPoint x="310.0300000000002" y="421.72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="55" y="422" />
+              <mxPoint x="55" y="460" />
+              <mxPoint x="190" y="440" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-3" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="510" as="sourcePoint" />
+            <mxPoint x="324.8959235991433" y="445.1040764008567" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="460" />
+              <mxPoint x="325" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-4" value="Data historis like pada post" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RJN4omwuOL3DXENPe6Uk-3">
+          <mxGeometry x="0.0151" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-5" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.046;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XXlMKQOHAoYWEDbqUS29-1" target="RJN4omwuOL3DXENPe6Uk-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307.82000000000016" y="342.66999999999996" as="sourcePoint" />
+            <mxPoint x="90" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="308" y="340" />
+              <mxPoint x="55" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-6" value="Data post yg akan dipublish&lt;br&gt;(Gambar &amp;amp; Caption)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RJN4omwuOL3DXENPe6Uk-5">
+          <mxGeometry x="-0.0323" y="1" relative="1" as="geometry">
+            <mxPoint x="12.529999999999998" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-7" value="URL Post yang telah dipublish" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0">
+          <mxGeometry y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="470" as="sourcePoint" />
+            <mxPoint x="300" y="385" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJN4omwuOL3DXENPe6Uk-8" value="Profile Visit" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.365;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="460" as="sourcePoint" />
+            <mxPoint x="362.0500000000002" y="302.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="5" y="250" />
+              <mxPoint x="362" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
