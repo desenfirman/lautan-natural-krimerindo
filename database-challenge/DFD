@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-08-29T12:35:02.140Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="zj0QM1Ph9oipvulrMcFb" version="13.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-08-29T13:11:57.518Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="IkBeVWPoc8SoQxnVrU5G" version="13.6.5" type="github" pages="3">
   <diagram name="Level 0" id="c7558073-3199-34d8-9f00-42111426c3f3">
-    <mxGraphModel dx="979" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dE7pfXFwS93azTOCquyD-99" value="&lt;span&gt;0*&lt;br&gt;Instagram &lt;br&gt;Dashboard Analytic&lt;br&gt;System&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="1">
           <mxGeometry x="300" y="300" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-101" value="Social Media &lt;br&gt;Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="dE7pfXFwS93azTOCquyD-101" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="30" y="360" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-107" value="Konfigurasi akun instagram" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99">
@@ -51,7 +51,7 @@
             <mxPoint x="62.1" y="59.1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dE7pfXFwS93azTOCquyD-121" value="Social Media &lt;br&gt;Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+        <mxCell id="dE7pfXFwS93azTOCquyD-121" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
           <mxGeometry x="700" y="360" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-122" value="Data historis like dan comment pada post&lt;br&gt;selama periode tracking" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121">
@@ -116,12 +116,106 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qf4hrw9B52MKthMP5kLH" name="Level 1">
-    <mxGraphModel dx="979" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="816" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="txjXLLPX41o9-VPFYIIn-0" />
         <mxCell id="txjXLLPX41o9-VPFYIIn-1" parent="txjXLLPX41o9-VPFYIIn-0" />
-        <mxCell id="qUac9IW1tB5oonGlP6Qu-0" value="Melakukan Post" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
-          <mxGeometry x="140" y="100" width="110" height="110" as="geometry" />
+        <mxCell id="qUac9IW1tB5oonGlP6Qu-0" value="1&lt;br&gt;Melakukan Post&lt;br&gt;Gambar &amp;amp; Caption" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="240" y="90" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwIu5gMZKMndVcNjr9c-0" value="2&lt;br&gt;Cron schedule&lt;br&gt;Collect post Data" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="510" y="90" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwIu5gMZKMndVcNjr9c-1" value="Instagram API&lt;br&gt;Data Store" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="40" y="300" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPwIu5gMZKMndVcNjr9c-2" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="20" y="120" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-0" value="Gambar" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-2" target="qUac9IW1tB5oonGlP6Qu-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-1" value="Caption" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-2" target="qUac9IW1tB5oonGlP6Qu-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="130" as="sourcePoint" />
+            <mxPoint x="256.1091270347399" y="116.10912703473991" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-2" value="Periode&lt;br&gt;Tracking" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-2" target="qUac9IW1tB5oonGlP6Qu-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-3" value="" style="endArrow=classic;html=1;exitX=0.322;exitY=0.969;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="qUac9IW1tB5oonGlP6Qu-0" target="ZPwIu5gMZKMndVcNjr9c-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="240" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-4" value="Gambar dan&lt;br&gt;Caption" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xhElMr5K9zd62Vby7WwL-3">
+          <mxGeometry x="0.3306" relative="1" as="geometry">
+            <mxPoint x="-4.790000000000006" y="-6.900000000000002" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.589;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="ZPwIu5gMZKMndVcNjr9c-1" target="qUac9IW1tB5oonGlP6Qu-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="270" as="sourcePoint" />
+            <mxPoint x="420" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-6" value="URL post&lt;br&gt;yang di-publish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xhElMr5K9zd62Vby7WwL-5">
+          <mxGeometry x="0.2889" y="-2" relative="1" as="geometry">
+            <mxPoint x="19.98" y="13.380000000000003" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-7" value="" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;rotation=-90;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="422" y="32" width="50" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-8" value="Post&lt;br&gt;terpublish" style="endArrow=classic;html=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="qUac9IW1tB5oonGlP6Qu-0" target="xhElMr5K9zd62Vby7WwL-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-9" value="" style="endArrow=classic;html=1;dashed=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" target="ZPwIu5gMZKMndVcNjr9c-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="60" as="sourcePoint" />
+            <mxPoint x="440" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-10" value="URL Post yang&lt;br&gt;di-publish" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="qUac9IW1tB5oonGlP6Qu-0" target="ZPwIu5gMZKMndVcNjr9c-0">
+          <mxGeometry x="-0.0769" y="15" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="140" as="sourcePoint" />
+            <mxPoint x="440" y="90" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.948;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="qUac9IW1tB5oonGlP6Qu-0" target="xhElMr5K9zd62Vby7WwL-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="190" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-16" value="user id&lt;br&gt;yang membuat&lt;br&gt;post" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xhElMr5K9zd62Vby7WwL-14">
+          <mxGeometry x="-0.4386" y="-1" relative="1" as="geometry">
+            <mxPoint x="32.45" y="-5.58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-11" value="Database untuk &lt;br&gt;post yang telah di-publish" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="txjXLLPX41o9-VPFYIIn-1">
+          <mxGeometry x="380" y="300" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xhElMr5K9zd62Vby7WwL-12" value="URL Post&lt;br&gt;yang di-publish" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="txjXLLPX41o9-VPFYIIn-1" source="qUac9IW1tB5oonGlP6Qu-0" target="xhElMr5K9zd62Vby7WwL-11">
+          <mxGeometry x="-0.0011" y="-28" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
