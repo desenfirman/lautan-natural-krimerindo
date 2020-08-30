@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T16:22:13.160Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="ZdIyDJ34wDfiafCu_dXB" version="13.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-30T16:38:51.562Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="-HOASWNkuPYIsrpLmady" version="13.6.5" type="github" pages="6">
   <diagram id="WUuqDocgXWBx3KlnURM6" name="Note">
     <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,29 +40,29 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dE7pfXFwS93azTOCquyD-99" value="&lt;span&gt;0*&lt;br&gt;Instagram &lt;br&gt;Dashboard Analytic&lt;br&gt;System&lt;br&gt;&lt;/span&gt;" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" parent="1" vertex="1">
-          <mxGeometry x="300" y="300" width="170" height="170" as="geometry" />
+          <mxGeometry x="280" y="80" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-101" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="30" y="360" width="100" height="50" as="geometry" />
+          <mxGeometry x="10" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-108" value="Data posting yg akan dipublish&lt;br&gt;(Gambar &amp;amp; Caption)" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99" edge="1">
           <mxGeometry x="0.1386" y="15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="670" y="530" as="sourcePoint" />
-            <mxPoint x="560" y="450" as="targetPoint" />
+            <mxPoint x="650" y="310" as="sourcePoint" />
+            <mxPoint x="540" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="80" y="280" />
-              <mxPoint x="385" y="280" />
+              <mxPoint x="60" y="60" />
+              <mxPoint x="365" y="60" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-113" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dE7pfXFwS93azTOCquyD-101" target="dE7pfXFwS93azTOCquyD-99" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="420" y="510" as="sourcePoint" />
-            <mxPoint x="310" y="395" as="targetPoint" />
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="290" y="175" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="80" y="490" />
-              <mxPoint x="385" y="490" />
+              <mxPoint x="60" y="270" />
+              <mxPoint x="365" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,36 +72,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-121" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="700" y="360" width="100" height="50" as="geometry" />
+          <mxGeometry x="680" y="140" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-122" value="Data historis like dan comment pada post&lt;br&gt;selama periode tracking" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="440" as="sourcePoint" />
-            <mxPoint x="550" y="390" as="targetPoint" />
+            <mxPoint x="480" y="220" as="sourcePoint" />
+            <mxPoint x="530" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="445" y="280" />
-              <mxPoint x="750" y="280" />
+              <mxPoint x="425" y="60" />
+              <mxPoint x="730" y="60" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-124" value="Polaritas sentimen pada kolom komentar" style="endArrow=classic;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.982;exitY=0.329;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121" edge="1">
           <mxGeometry x="0.0169" y="15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="440" as="sourcePoint" />
-            <mxPoint x="550" y="390" as="targetPoint" />
+            <mxPoint x="480" y="220" as="sourcePoint" />
+            <mxPoint x="530" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="467" y="340" />
-              <mxPoint x="725" y="340" />
+              <mxPoint x="447" y="120" />
+              <mxPoint x="705" y="120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-125" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="440" as="sourcePoint" />
-            <mxPoint x="650" y="398" as="targetPoint" />
+            <mxPoint x="480" y="220" as="sourcePoint" />
+            <mxPoint x="630" y="178" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="385" />
-              <mxPoint x="650" y="385" />
+              <mxPoint x="630" y="165" />
+              <mxPoint x="630" y="165" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -112,22 +112,22 @@
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-126" value="User demography pada post terkait" style="endArrow=classic;html=1;exitX=0.916;exitY=0.774;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121" edge="1">
           <mxGeometry x="0.0071" y="-10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="440" as="sourcePoint" />
-            <mxPoint x="550" y="390" as="targetPoint" />
+            <mxPoint x="480" y="220" as="sourcePoint" />
+            <mxPoint x="530" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="456" y="490" />
-              <mxPoint x="750" y="490" />
+              <mxPoint x="436" y="270" />
+              <mxPoint x="730" y="270" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dE7pfXFwS93azTOCquyD-130" value="" style="endArrow=classic;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=0.969;exitY=0.696;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="dE7pfXFwS93azTOCquyD-99" target="dE7pfXFwS93azTOCquyD-121" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="470" y="412" as="sourcePoint" />
-            <mxPoint x="550" y="500" as="targetPoint" />
+            <mxPoint x="450" y="192" as="sourcePoint" />
+            <mxPoint x="530" y="280" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="465" y="430" />
-              <mxPoint x="725" y="430" />
+              <mxPoint x="445" y="210" />
+              <mxPoint x="705" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
