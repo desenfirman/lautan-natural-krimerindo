@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T14:15:47.016Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="LsX8J1dOXopC-oi-LDPp" version="13.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-30T14:34:16.889Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="7qJwQw1a1rCILgcmaPO2" version="13.6.5" type="github" pages="6">
   <diagram name="Level 0" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Qf4hrw9B52MKthMP5kLH" name="Level 1">
-    <mxGraphModel dx="1958" dy="1048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1399" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="txjXLLPX41o9-VPFYIIn-0" />
         <mxCell id="txjXLLPX41o9-VPFYIIn-1" parent="txjXLLPX41o9-VPFYIIn-0" />
@@ -509,6 +509,15 @@
         <mxCell id="KxUMnya7V94UmiUd_Jem-20" value="Data Historis per Interval&lt;br&gt;(NoSQL&amp;nbsp;Database)" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="73JfOUOORNIebLAL4GeG-1">
           <mxGeometry x="360" y="610" width="210" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="Ag_QprKzDJ9rjp3kBA9v-0" value="" style="group" vertex="1" connectable="0" parent="73JfOUOORNIebLAL4GeG-1">
+          <mxGeometry x="20" y="700" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nkogtxn5g1d90B94MSKK-1" value="Note" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="Ag_QprKzDJ9rjp3kBA9v-0">
+          <mxGeometry width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nkogtxn5g1d90B94MSKK-2" value="&lt;div&gt;&lt;span&gt;Report Data NoSQL&amp;nbsp;Database pada level 1&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;DFD dipecah menjadi 4 jenis collection&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;yaitu&amp;nbsp;&lt;/span&gt;&lt;span&gt;Data Summary Post,&amp;nbsp;&lt;/span&gt;&lt;span&gt;Data Historis per Interval,&amp;nbsp;&lt;br&gt;Word count data, dan Word count by sentiment type&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="nkogtxn5g1d90B94MSKK-1">
+          <mxGeometry y="20" width="300" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -687,6 +696,18 @@
         <mxCell id="uL-CoE2R0gl4N_An6U25-0" value="Data Summary Post&lt;br&gt;(NoSQL&amp;nbsp;Database)" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="FYGWNcXG5WCZvqQV_Bfa-1">
           <mxGeometry x="5" y="70" width="210" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="Qk5SAfaGOgRx6nBjEGex-3" value="" style="group" vertex="1" connectable="0" parent="FYGWNcXG5WCZvqQV_Bfa-1">
+          <mxGeometry x="510" y="1060" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk5SAfaGOgRx6nBjEGex-0" value="" style="group" vertex="1" connectable="0" parent="Qk5SAfaGOgRx6nBjEGex-3">
+          <mxGeometry width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk5SAfaGOgRx6nBjEGex-1" value="Note" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="Qk5SAfaGOgRx6nBjEGex-0">
+          <mxGeometry width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qk5SAfaGOgRx6nBjEGex-2" value="&lt;div&gt;&lt;span&gt;Report Data NoSQL&amp;nbsp;Database pada level 1&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;DFD dipecah menjadi 4 jenis collection&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;yaitu&amp;nbsp;&lt;/span&gt;&lt;span&gt;Data Summary Post,&amp;nbsp;&lt;/span&gt;&lt;span&gt;Data Historis per Interval,&amp;nbsp;&lt;br&gt;Word count data, dan Word count by sentiment type&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="Qk5SAfaGOgRx6nBjEGex-1">
+          <mxGeometry y="20" width="300" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -744,6 +765,18 @@
         </mxCell>
         <mxCell id="qtLkDW88oTZssxGBEgkh-3" value="5.2&lt;br&gt;Menampilkan data&lt;br&gt;demografi untuk&lt;br&gt;post terkait" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
           <mxGeometry x="540" y="420" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sHcXLOiNytZDaNHe999c-0" value="" style="group" vertex="1" connectable="0" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="510" y="560" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sHcXLOiNytZDaNHe999c-1" value="" style="group" vertex="1" connectable="0" parent="sHcXLOiNytZDaNHe999c-0">
+          <mxGeometry width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sHcXLOiNytZDaNHe999c-2" value="Note" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#ffffff;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="sHcXLOiNytZDaNHe999c-1">
+          <mxGeometry width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sHcXLOiNytZDaNHe999c-3" value="&lt;div&gt;&lt;span&gt;Report Data NoSQL&amp;nbsp;Database pada level 1&lt;/span&gt;&lt;/div&gt;&lt;span&gt;&lt;div&gt;&lt;span&gt;DFD dipecah menjadi 4 jenis collection&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;yaitu&amp;nbsp;&lt;/span&gt;&lt;span&gt;Data Summary Post,&amp;nbsp;&lt;/span&gt;&lt;span&gt;Data Historis per Interval,&amp;nbsp;&lt;br&gt;Word count data, dan Word count by sentiment type&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="html=1;dashed=0;whitespace=wrap;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="sHcXLOiNytZDaNHe999c-2">
+          <mxGeometry y="20" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
