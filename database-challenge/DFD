@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T10:19:24.295Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="x1WmDOUiLGdotYcJ_8-I" version="13.6.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-08-30T10:33:04.616Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="oTGKCr4SrFP1Phbxm3u8" version="13.6.5" type="github" pages="6">
   <diagram name="Level 0" id="c7558073-3199-34d8-9f00-42111426c3f3">
     <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -659,7 +659,7 @@
         <mxCell id="jUoBllR_jZ2fmK2PUKEn-38" value="data komentar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="FYGWNcXG5WCZvqQV_Bfa-1" source="jUoBllR_jZ2fmK2PUKEn-37" target="jUoBllR_jZ2fmK2PUKEn-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jUoBllR_jZ2fmK2PUKEn-37" value="3.6&lt;br&gt;ambii&lt;br&gt;data komentar" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="FYGWNcXG5WCZvqQV_Bfa-1">
+        <mxCell id="jUoBllR_jZ2fmK2PUKEn-37" value="3.6&lt;br&gt;ambil&lt;br&gt;data komentar" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="FYGWNcXG5WCZvqQV_Bfa-1">
           <mxGeometry x="140" y="1000" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="uL-CoE2R0gl4N_An6U25-2" value="data kometar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FYGWNcXG5WCZvqQV_Bfa-1" source="g7wnBRQoc5qaZeU-HCT--4" target="jUoBllR_jZ2fmK2PUKEn-14">
@@ -682,83 +682,69 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="gCDYC5U9sSq9kDv1METk" name="Level 2: Process 5">
+    <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="PtRpuMkzuQXYoaSUf4ce-0" />
+        <mxCell id="PtRpuMkzuQXYoaSUf4ce-1" parent="PtRpuMkzuQXYoaSUf4ce-0" />
+        <mxCell id="4zv7UTAXzfsw_h_mibTr-3" value="user like&lt;br&gt;and comment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="2UNNyWeC-saRyO4XORrm-0" target="4zv7UTAXzfsw_h_mibTr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2UNNyWeC-saRyO4XORrm-0" value="5.1&lt;br&gt;Mengambil&lt;br&gt;perkembangan&lt;br&gt;post dari&amp;nbsp;&lt;br&gt;Database" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="304" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fUyzFK1T6236SwfSYFeM-1" value="post id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="fUyzFK1T6236SwfSYFeM-0" target="2UNNyWeC-saRyO4XORrm-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fUyzFK1T6236SwfSYFeM-0" value="Dashboard&lt;br&gt;Analytic Admin" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="70" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4zv7UTAXzfsw_h_mibTr-1" value="user like and comment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="4zv7UTAXzfsw_h_mibTr-0" target="2UNNyWeC-saRyO4XORrm-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="245" y="266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4zv7UTAXzfsw_h_mibTr-0" value="Report Data NoSQL&amp;nbsp;Database" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="140" y="130" width="210" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-2" value="user id" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="4zv7UTAXzfsw_h_mibTr-2" target="qtLkDW88oTZssxGBEgkh-0">
+          <mxGeometry x="0.4667" y="-9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-6" value="post id" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="4zv7UTAXzfsw_h_mibTr-2" target="qtLkDW88oTZssxGBEgkh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-7" value="per user&lt;br&gt;location data" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="4zv7UTAXzfsw_h_mibTr-2" target="qtLkDW88oTZssxGBEgkh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4zv7UTAXzfsw_h_mibTr-2" value="5.2&lt;br&gt;Mendapatkan data&lt;br&gt;location dari &lt;br&gt;tiap user yang like&lt;br&gt;dan comment" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="540" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-1" value="location data" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="qtLkDW88oTZssxGBEgkh-0" target="4zv7UTAXzfsw_h_mibTr-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-0" value="Instagram API&lt;br&gt;Data Store" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;left=0;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="430" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-8" value="user demography" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="PtRpuMkzuQXYoaSUf4ce-1" source="qtLkDW88oTZssxGBEgkh-3" target="fUyzFK1T6236SwfSYFeM-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qtLkDW88oTZssxGBEgkh-3" value="5.2&lt;br&gt;Menampilkan data&lt;br&gt;demograpi untuk&lt;br&gt;post terkait" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;perimeter=ellipsePerimeter;" vertex="1" parent="PtRpuMkzuQXYoaSUf4ce-1">
+          <mxGeometry x="540" y="420" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="WUuqDocgXWBx3KlnURM6" name="Backup">
-    <mxGraphModel dx="1806" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="XXlMKQOHAoYWEDbqUS29-0" />
         <mxCell id="XXlMKQOHAoYWEDbqUS29-1" parent="XXlMKQOHAoYWEDbqUS29-0" />
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-0" value="Instagram API" style="html=1;dashed=0;whitespace=wrap;" parent="XXlMKQOHAoYWEDbqUS29-1" vertex="1">
-          <mxGeometry x="-20" y="360" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-1" value="Follower Growth" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="510" as="sourcePoint" />
-            <mxPoint x="324.8959235991433" y="324.8959235991433" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="280" />
-              <mxPoint x="325" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-2" value="Data historis komentar pada post" style="endArrow=classic;html=1;edgeStyle=elbowEdgeStyle;entryX=0.059;entryY=0.716;entryDx=0;entryDy=0;entryPerimeter=0;" parent="XXlMKQOHAoYWEDbqUS29-1" edge="1">
-          <mxGeometry x="0.0985" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="55" y="410" as="sourcePoint" />
-            <mxPoint x="310.0300000000002" y="421.72" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="55" y="422" />
-              <mxPoint x="55" y="460" />
-              <mxPoint x="190" y="440" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-3" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="510" as="sourcePoint" />
-            <mxPoint x="324.8959235991433" y="445.1040764008567" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="460" />
-              <mxPoint x="325" y="460" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-4" value="Data historis like pada post" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RJN4omwuOL3DXENPe6Uk-3" vertex="1" connectable="0">
-          <mxGeometry x="0.0151" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-5" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.046;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="XXlMKQOHAoYWEDbqUS29-1" target="RJN4omwuOL3DXENPe6Uk-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="307.82000000000016" y="342.66999999999996" as="sourcePoint" />
-            <mxPoint x="90" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="308" y="340" />
-              <mxPoint x="55" y="340" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-6" value="Data post yg akan dipublish&lt;br&gt;(Gambar &amp;amp; Caption)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RJN4omwuOL3DXENPe6Uk-5" vertex="1" connectable="0">
-          <mxGeometry x="-0.0323" y="1" relative="1" as="geometry">
-            <mxPoint x="12.529999999999998" y="-21" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-7" value="URL Post yang telah dipublish" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0" edge="1">
-          <mxGeometry y="15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="470" as="sourcePoint" />
-            <mxPoint x="300" y="385" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RJN4omwuOL3DXENPe6Uk-8" value="Profile Visit" style="endArrow=classic;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.365;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="XXlMKQOHAoYWEDbqUS29-1" source="RJN4omwuOL3DXENPe6Uk-0" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="460" as="sourcePoint" />
-            <mxPoint x="362.0500000000002" y="302.03999999999996" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="5" y="250" />
-              <mxPoint x="362" y="250" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
