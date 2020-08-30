@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T16:38:51.562Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="-HOASWNkuPYIsrpLmady" version="13.6.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-08-30T16:48:45.910Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="N2L-WQOBwFSHqHqRkKT7" version="13.6.5" type="github" pages="6">
   <diagram id="WUuqDocgXWBx3KlnURM6" name="Note">
     <mxGraphModel dx="979" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
           <mxGeometry x="-0.0528" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Iwe2AdJBYSqTvqpjuAI7-1" value="&lt;div&gt;&lt;span&gt;DFD level 0 dibuat dengan asumsi bahwa Dashboard Analytic Admin (yang merupakan admin yang bertugas untuk&lt;br&gt;&amp;nbsp;melakukan campaign di S&lt;/span&gt;&lt;span&gt;osmed Instagram) dapat membuat post di instagram melalui Instageam Dashboard&lt;br&gt;Analytic System yang dibuat. User yang akan melakukan posting dapat memasang sebuah tracker yang secara&lt;br&gt;berkala mengambil data post like dan comment dari Instagram dalam rentang waktu tertentu. Setiap data yang&lt;br&gt;masuk pada sistem adalah data like dan comment yang baru (bukan kumulatif).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;Selain beberapa hal tersebut, pengguna juga dapat melakukan sentimen analysis. Sentimen analysis dilakukan&lt;br&gt;dengan melakukan proses labelling terlebih dahulu. Proses labelling dilakukan dengan menggunakan data komentar&lt;br&gt;yang telah dikumpulkan oleh cron job tracker dari sebuah posting. Setelah proses labelling selesai, maka proses&lt;br&gt;training dilakukan. Proses training menggunakan algortime Naive Bayes dan karena training menggunakan Naive&lt;br&gt;Bayes, maka data hasil training terdiri dari jumlah kata berdasarkan polaritas positif dan negatif. Karena data&lt;br&gt;komentar bersifat unstructure maka perlu dilakukan proses MapReduce untuk mengubah data komentar menjadi&lt;br&gt;data token kata.&lt;br&gt;&lt;br&gt;Selain beberapa fitur diatas, fitur yang lain yaitu melihat data historis profile visit, data perkembangan follower&lt;br&gt;dan data user demografi. Data ini dapat diakses dari data source NoSQL yang telah dibuat. Untuk mendapatkan&lt;br&gt;data demografi user, perlu ada koneksi dulu ke API Instagram untuk mendapatkan data geo-location dari user.&lt;/span&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;strokeColor=#000000;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="620" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
