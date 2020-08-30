@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2020-08-30T15:40:07.912Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" version="13.6.5" etag="k8qc6tChnotJHjE0EIFW" type="github"><diagram id="hG29Z93KqOIAYii6Gvfd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-08-30T16:33:03.253Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="aH7dxw6k0NA4wUkXxG_U" version="13.6.5" type="github" pages="2">
+  <diagram id="hG29Z93KqOIAYii6Gvfd" name="Collecting Like and Post from Instagram API">
+    <mxGraphModel dx="1399" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rmL1cD0pNcn0t1gyCrsW-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="90" y="50" width="560" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="rmL1cD0pNcn0t1gyCrsW-6" value="&lt;img width=&quot;75px;&quot; height=&quot;75px;&quot; src=&quot;https://lh6.googleusercontent.com/jsaunICFn4kuwYP-ZA2TW3biiX1LuLpYytb0c27gjI6woLI5OHuXBwufc9E9IC1u6FDod8e4QeqAHcgG_VI8bN_7ob52BDC_pqsyLBX4uzgLtfsh87c42Eyfoyhd0bFF&quot; id=&quot;docs-internal-guid-4e453ea2-7fff-af45-26e5-472ce83d5fed&quot;&gt;&lt;br&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.2 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 14pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(35 , 47 , 61) ; background-color: transparent ; font-weight: 400 ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;AWS Data Pipeline&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rmL1cD0pNcn0t1gyCrsW-10" target="xhgmCtotwSOeP4VRH02F-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rmL1cD0pNcn0t1gyCrsW-10" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;Instagram API Data&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xhgmCtotwSOeP4VRH02F-2" target="xhgmCtotwSOeP4VRH02F-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xhgmCtotwSOeP4VRH02F-2" target="xhgmCtotwSOeP4VRH02F-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-2" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;img width=&quot;49px;&quot; height=&quot;49px;&quot; src=&quot;https://lh3.googleusercontent.com/khhApThRJ_zhNnj6-rm7G7UXXAUGL67UcTGAY-0ZrRwP8I6LPL1vFP1BG0-r_26o2kQsSb14-99q08lkUdzc14H4njkIYhaWswrhtcFmcbjorqdoNQlnDontnZ-If-Gc&quot; id=&quot;docs-internal-guid-bfc97ceb-7fff-619f-b265-5a1c20757cba&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.2 ; margin-top: 0pt ; margin-bottom: 0pt ; font-size: 17px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; color: rgb(35 , 47 , 62) ; background-color: transparent ; font-weight: 400 ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;EC2 Instance&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-4" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Melakukan Seleksi&lt;br&gt;Hanya Komentar Terbaru yang Akan diambil dan disimpan&lt;br&gt;di Data Historis per Interval&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="95" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-5" value="&lt;span&gt;Data Historis per Interval&lt;/span&gt;&lt;br&gt;&lt;span&gt;(NoSQL&amp;nbsp;Database)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="80" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-6" value="&lt;span&gt;Data Summary Post&lt;br&gt;(NoSQL&amp;nbsp;Database)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="570" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xhgmCtotwSOeP4VRH02F-8" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Sisanya akan disimpan di summary post. Summary post&lt;br&gt;diupdate secara berkala&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="320" width="210" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fIMokx5qt8OdhxB9KkLt" name="Train Naive Bayes Classifier">
+    <mxGraphModel dx="1399" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="rTruy_CUaFVextwVSCrt-0" />
+        <mxCell id="rTruy_CUaFVextwVSCrt-1" parent="rTruy_CUaFVextwVSCrt-0" />
+        <mxCell id="rTruy_CUaFVextwVSCrt-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="rTruy_CUaFVextwVSCrt-1">
+          <mxGeometry x="90" y="50" width="660" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="rTruy_CUaFVextwVSCrt-3" value="&lt;img width=&quot;75px;&quot; height=&quot;75px;&quot; src=&quot;https://lh6.googleusercontent.com/jsaunICFn4kuwYP-ZA2TW3biiX1LuLpYytb0c27gjI6woLI5OHuXBwufc9E9IC1u6FDod8e4QeqAHcgG_VI8bN_7ob52BDC_pqsyLBX4uzgLtfsh87c42Eyfoyhd0bFF&quot; id=&quot;docs-internal-guid-4e453ea2-7fff-af45-26e5-472ce83d5fed&quot;&gt;&lt;br&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.2 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-size: 14pt ; font-family: &amp;#34;arial&amp;#34; ; color: rgb(35 , 47 , 61) ; background-color: transparent ; font-weight: 400 ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;AWS Data Pipeline&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rTruy_CUaFVextwVSCrt-1">
+          <mxGeometry x="80" y="50" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsx7l8NC4KTRxH2rlkSx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="rTruy_CUaFVextwVSCrt-1" source="rTruy_CUaFVextwVSCrt-4" target="Zsx7l8NC4KTRxH2rlkSx-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="560" />
+              <mxPoint x="240" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rTruy_CUaFVextwVSCrt-4" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Labelling Comment Data&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;(SQL Database)&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rTruy_CUaFVextwVSCrt-1">
+          <mxGeometry x="130" y="640" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dpTvDX2JzyN5Zfv3S_g5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rTruy_CUaFVextwVSCrt-1" source="Zsx7l8NC4KTRxH2rlkSx-0" target="dpTvDX2JzyN5Zfv3S_g5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zsx7l8NC4KTRxH2rlkSx-0" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;img width=&quot;49px;&quot; height=&quot;49px;&quot; src=&quot;https://lh3.googleusercontent.com/khhApThRJ_zhNnj6-rm7G7UXXAUGL67UcTGAY-0ZrRwP8I6LPL1vFP1BG0-r_26o2kQsSb14-99q08lkUdzc14H4njkIYhaWswrhtcFmcbjorqdoNQlnDontnZ-If-Gc&quot; id=&quot;docs-internal-guid-bfc97ceb-7fff-619f-b265-5a1c20757cba&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.2 ; margin-top: 0pt ; margin-bottom: 0pt ; font-size: 17px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; color: rgb(35 , 47 , 62) ; background-color: transparent ; font-weight: 400 ; font-style: normal ; font-variant: normal ; text-decoration: none ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 17px&quot;&gt;Elastic MapReduce&lt;br&gt;Instance&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="rTruy_CUaFVextwVSCrt-1">
+          <mxGeometry x="160" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dpTvDX2JzyN5Zfv3S_g5-0" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Elastic Map Reduce dari AWS akan melakukan transformasi data berupa tokenisasi dan hasil dari tokenisasi akan disimpan&lt;br&gt;ke dalam Database NoSQL&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="rTruy_CUaFVextwVSCrt-1">
+          <mxGeometry x="450" y="350" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dpTvDX2JzyN5Zfv3S_g5-1" value="&lt;font style=&quot;font-size: 17px&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Word Count Data&lt;br&gt;(SQL Database)&lt;/span&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="rTruy_CUaFVextwVSCrt-1">
+          <mxGeometry x="790" y="220" width="220" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
